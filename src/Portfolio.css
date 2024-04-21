@@ -1,0 +1,45 @@
+.java{
+    width: 256px;
+    height: 256px;
+}
+.git{
+    width: 256px;
+    height: 256px;
+    backface-visibility: revert;
+    border: black 10px solid;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+
+}
+.Sponsor{
+    color: white;
+    font-size: 3rem;
+    animation: sponsor 2s infinite;
+    background: none;
+}
+.git:hover{
+    animation: git-spin 2s infinite linear;
+}
+
+@keyframes git-spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes sponsor {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
