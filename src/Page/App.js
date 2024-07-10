@@ -14,7 +14,7 @@ function App() {
         </h1>
         <a
           className="App-link"
-          href="https://discord.gg/mirage-958487013907112026"
+          href="https://discord.gg/mirage-play"
           target="_blank"
           rel="noopener noreferrer"
         >
